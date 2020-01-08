@@ -49,7 +49,7 @@ Now we have things like Controllers, Views, Models (MVC), so the way of orginizi
 **But another problem appeared!**
 things started getting more and more complex because of this. As things get bigger and bigger more things have to happen. We have more and more complexity now and although frameworks like AngularJS came out people started to notice it's getting harder and harder to find bugs in the code and understand how each part of the app was affecting the other (Data was flowing everywhere).
 
-# The birth of SPA
+## The birth of React
 
 # 🧐 Want to contribute ?
 
