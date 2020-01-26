@@ -43,7 +43,7 @@ As we explained above, traditionally we just had HTML files for each page and ev
 Generally what happend is that we focus less on HTML and alot more on JS.
 So the principe behind SPAs is, you only load the application code once, and instead of leoding all files everytime returning a new document, our app now acts more like a desktop app where we stay on the same page the entire time, and JavaScripts simply changes or updates the DOM to display new things. This way of writing apps became really really popular.
 
-- oct 2010 : AngularJs was created by Google and beacame the standard way of building applications or SPAs. But inlike jQuery Angular allowed developers to build these large apps by forming these containers that will wrapp your project. Because AngularJs was created by Google, it had a lot of power.
+- oct 2010 : AngularJs was created by Google and became the standard way of building applications or SPAs. But inlike jQuery Angular allowed developers to build these large apps by forming these containers that will wrapp your project. Because AngularJs was created by Google, it had a lot of power.
 
 Now we have things like Controllers, Views, Models (MVC), so the way of orginizing code and dividing it into different things depending of what it does, made it much easier to work with as teams gets larger and larger.
 **But another problem appeared!**
