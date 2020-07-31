@@ -14,6 +14,8 @@ In the repo I'll try to show you my track learning react, showing my steps, and 
 
 2- [Section 2: React](#the-birth-of-react)<br>
 
+- [React Concepts](#react-concepts)<br>
+
 ---
 
 # What is React js
@@ -90,10 +92,10 @@ The good principales introduced by React made it the most popular front-end tool
 
 # React Concepts
 
-1- React handles the DOM for you!
-2- Build websites like lego blocks (Reuseble components)
-3- Unidirectional data flow
-4- Handles only the UI.
+1. React handles the DOM for you!
+2. Build websites like lego blocks (Reuseble components)
+3. Unidirectional data flow
+4. Handles only the UI.
 
 ## Declarative programming vs Imperative in React
 
