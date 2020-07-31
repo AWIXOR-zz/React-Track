@@ -49,7 +49,28 @@ Now we have things like Controllers, Views, Models (MVC), so the way of orginizi
 **But another problem appeared!**
 things started getting more and more complex because of this. As things get bigger and bigger more things have to happen. We have more and more complexity now and although frameworks like AngularJS came out people started to notice it's getting harder and harder to find bugs in the code and understand how each part of the app was affecting the other (Data was flowing everywhere).
 
-# The birth of SPA
+# The birth of React
+
+2013, Facebook released [React](https://github.com/facebook/react), Facebook presented a very good solution, and everyone started to use it, because React come with a whole new way to build front-end applications.
+One year after, Gooogle realesed that the way that they architected AngularJs is not effetient to be used for building good applications anymore, so they decided to rewrite the whole liberary and called it Angular, but because of amount of time the rewrite will take, many people moved to React.
+The good principales introduced by React made it the most popular front-end tool with the most job demand across the world.
+
+**More than 8000 campanies are using React in their tech stacks including including:**
+
+- Facebook
+- Uber
+- Airbnb
+- Netflix
+- Discord
+- Snapchat
+- Coursera
+- Shopify
+- Reddit
+- Twitter
+- Paypal
+- Figma
+- Slack
+- ...
 
 # 🧐 Want to contribute ?
 
