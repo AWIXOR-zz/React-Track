@@ -90,6 +90,21 @@ The good principales introduced by React made it the most popular front-end tool
 
 # React Concepts
 
+1- React handles the DOM for you!
+2- Build websites like lego blocks (Reuseble components)
+3- Unidirectional data flow
+4- Handles only the UI.
+
+## Declarative programming vs Imperative in React
+
+<dl>
+  <dt>Imperative:</dt>
+  <dd>Directly change individuel part of the app in response of variant user events, it's like telling the app how to do something when something happens, and as a result what you want to happen will happen.</dd>
+
+  <dt>Declarative:</dt>
+  <dd>Unlike imperative it's like telling the app what you would like to happen, and let it figure out how to do it. React uses what we call <em>state</em>.</dd>
+</dl>
+
 # 🧐 Want to contribute ?
 
 If you have something to contribute with, this is how you do it.
