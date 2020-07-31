@@ -2,6 +2,20 @@
 
 In the repo I'll try to show you my track learning react, showing my steps, and all react golden rules as I go with react this repo will be updated over time
 
+##### Table of Contents
+
+1- [Section 1: History](#history)<br>
+
+- [What is ReactJs](#what-is-react-js)<br>
+- [History](#history)<br>
+  - [Before REACT](#before-react)<br>
+  - [The birth of SPA](#the-birth-of-SPA)<br>
+- [The birth of React](#the-birth-of-react)<br>
+
+2- [Section 2: React](#the-birth-of-react)<br>
+
+---
+
 # What is React js
 
 [React](https://reactjs.org) is a JavaScript library for building UIs. It's maintained by [Facebook](https://github.com/facebook/react/) and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
@@ -49,6 +63,8 @@ Now we have things like Controllers, Views, Models (MVC), so the way of orginizi
 **But another problem appeared!**
 things started getting more and more complex because of this. As things get bigger and bigger more things have to happen. We have more and more complexity now and although frameworks like AngularJS came out people started to notice it's getting harder and harder to find bugs in the code and understand how each part of the app was affecting the other (Data was flowing everywhere).
 
+---
+
 # The birth of React
 
 2013, Facebook released [React](https://github.com/facebook/react), Facebook presented a very good solution, and everyone started to use it, because React come with a whole new way to build front-end applications.
@@ -71,6 +87,8 @@ The good principales introduced by React made it the most popular front-end tool
 - Figma
 - Slack
 - ...
+
+# React Concepts
 
 # 🧐 Want to contribute ?
 
