@@ -4,7 +4,7 @@ In the repo I'll try to show you my track learning react, showing my steps, and 
 
 ##### Table of Contents
 
-1- [Section 1: History](#history)<br>
+1. [Section 1: History](#history)<br>
 
 - [What is ReactJs](#what-is-react-js)<br>
 - [History](#history)<br>
@@ -12,9 +12,14 @@ In the repo I'll try to show you my track learning react, showing my steps, and 
   - [The birth of SPA](#the-birth-of-SPA)<br>
 - [The birth of React](#the-birth-of-react)<br>
 
-2- [Section 2: React](#the-birth-of-react)<br>
+2. [Section 2: React](#the-birth-of-react)<br>
 
 - [React Concepts](#react-concepts)<br>
+  - [Declarative programming vs Imperative in React](#declarative-programming-vs-imperative-in-react) <br>
+  - [Virtual DOM](#virtual-dom)<br>
+  - [How to be a great React Developer](#how-to-be-a-great-react-developer)<br>
+
+3. [Section 3: Into React](#virtual-dom)<br>
 
 ---
 
@@ -33,7 +38,7 @@ Backing to 90s til 2000 we just have basic HTML CSS & JS but back then it simply
 
 Let's see where/when the story began
 
-- 1993 : Mosaic 💥, the first web browser to start bringing the Internet to the mainstream but no JS ❌ yet. Onlt the DOM (Document Model Object)but non-standardized yet.
+- 1993 : Mosaic 💥, the first web browser to start bringing the Internet to the mainstream but no JS ❌ yet. Onlt the DOM (Document Object Model)but non-standardized yet.
 - 1994 : Netscape 🚀🚀🚀, was the dominant web browser in terms of usage share after the 1994, but by 2002 its use had almost disappeared.
 - May 1995 : Java appeared, and Netscape wanted to add **interations** to the webpages.
 - Mid 1995 : MOCHA was created by _Brendan Eich_ during his time at Netscape Communications. It was inspired by Java, Scheme and [Self](http://www.selflanguage.org). Mocha syntactically was just like Java {curly bracket language}, but already contains many features that we know and love in modern JS.
@@ -73,7 +78,7 @@ things started getting more and more complex because of this. As things get bigg
 One year after, Gooogle realesed that the way that they architected AngularJs is not effetient to be used for building good applications anymore, so they decided to rewrite the whole liberary and called it Angular, but because of amount of time the rewrite will take, many people moved to React.
 The good principales introduced by React made it the most popular front-end tool with the most job demand across the world.
 
-**More than 8000 campanies are using React in their tech stacks including including:**
+**More than 8000 campanies are using React in their tech stacks including:**
 
 - Facebook
 - Uber
@@ -106,6 +111,16 @@ The good principales introduced by React made it the most popular front-end tool
   <dt>Declarative:</dt>
   <dd>Unlike imperative it's like telling the app what you would like to happen, and let it figure out how to do it. React uses what we call <em>state</em>.</dd>
 </dl>
+
+## Virtual DOM
+
+The virtual DOM is a javascript version of the DOM (Document Object Model). React use this virtual DOM to know how it should update the DOM.
+
+## How to be a great React developer
+
+1. Decide on components
+2. Decide the state and where it lives
+3. What changes when state changes
 
 # 🧐 Want to contribute ?
 
