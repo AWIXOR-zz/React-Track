@@ -57,6 +57,7 @@ Let's see where/when the story began
 So as time goes many browsers appeared and JavaScript gains more interest, but the problem was that each one of these browsers works differently from each other, so as we wanted to use more and more javascript in our web pages we had to account for all these browsers, and accommadate javascript to work with them.
 
 - `2006` : jQuery came out and changed alot, it allowed to developers to easly interact with the DOM (Document Object Model) across all these browsers. jQuery made life so easier for developers, it made them happy because it had a unified easy API.
+  <a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/jquery.png" ></a>
 
 So with the power that jQuery gave to developers, they bigan to build bigger and bigger apps like Facebook where you had so many features.
 Instead of just requesting more and more pages like a blog, users can now interact with these apps.
@@ -71,6 +72,7 @@ Generally what happend is that we focus less on HTML and alot more on JS.
 So the principe behind SPAs is, you only load the application code once, and instead of leoding all files everytime returning a new document, our app now acts more like a desktop app where we stay on the same page the entire time, and JavaScripts simply changes or updates the DOM to display new things. This way of writing apps became really really popular.
 
 - `oct 2010` : [AngularJs](https://github.com/angular/angular.js) was created by Google and beacame the standard way of building applications or SPAs. But inlike jQuery Angular allowed developers to build these large apps by forming these containers that will wrapp your project. Because AngularJs was created by Google, it had a lot of power.
+  <a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/angular.png" ></a>
 
 Now we have things like Controllers, Views, Models (MVC), so the way of orginizing code and dividing it into different things depending of what it does, made it much easier to work with as teams gets larger and larger.
 **But another problem appeared!**
@@ -83,6 +85,8 @@ things started getting more and more complex because of this. As things get bigg
 2013, Facebook released [React](https://github.com/facebook/react), Facebook presented a very good solution, and everyone started to use it, because React come with a whole new way to build front-end applications.
 One year after, Gooogle realesed that the way that they architected AngularJs is not effetient to be used for building good applications anymore, so they decided to rewrite the whole liberary and called it Angular, but because of amount of time the rewrite will take, many people moved to React.
 The good principales introduced by React made it the most popular front-end tool with the most job demand across the world.
+
+<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/react.png" ></a>
 
 **More than 8000 campanies are using React in their tech stacks including:**
 
@@ -103,10 +107,10 @@ The good principales introduced by React made it the most popular front-end tool
 
 # React Concepts
 
-1. React handles the DOM for you!
-2. Build websites like lego blocks (Reuseble components)
-3. Unidirectional data flow
-4. Handles only the UI.
+    1. React handles the DOM for you!
+    2. Build websites like lego blocks (Reuseble components)
+    3. Unidirectional data flow
+    4. Handles only the UI.
 
 ## Declarative programming vs Imperative in React
 
@@ -118,9 +122,20 @@ The good principales introduced by React made it the most popular front-end tool
   <dd>Unlike imperative it's like telling the app what you would like to happen, and let it figure out how to do it. React uses what we call <em>state</em>.</dd>
 </dl>
 
+> The state: is an object where you store property values that belongs to the component. When the state object changes, the component re-renders
+
+<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/imp_vs_dec.jpg" ></a>
+
+You can learn more about Imperative and Declarative in React in this article:
+[Imperative vs Declarative](https://dev.to/itsjzt/declarative-programming--react-3bh2)
+
 ## Virtual DOM
 
 The virtual DOM is a javascript version of the DOM (Document Object Model). React use this virtual DOM to know how it should update the DOM.
+
+<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/vdom.png" ></a>
+
+So what React does is: when the state object that we mentioned above changes React updates only the components related to that state change unlike traditional which re-rendres the whole app.
 
 ## How to be a great React developer
 
