@@ -133,7 +133,7 @@ You can learn more about Imperative and Declarative in React in this article:
 
 The virtual DOM is a javascript version of the DOM (Document Object Model). React use this virtual DOM to know how it should update the DOM.
 
-<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/vdom.png" ></a>
+<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/Vdom.png" ></a>
 
 So what React does is: when the state object that we mentioned above changes React updates only the components related to that state change unlike traditional which re-rendres the whole app.
 
