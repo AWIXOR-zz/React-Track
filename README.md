@@ -25,7 +25,7 @@ In the repo I'll try to show you my track learning react, showing my steps, and 
 
 # What is React js
 
-[React](https://reactjs.org) is a JavaScript library for building UIs. It's maintained by [Facebook](https://github.com/facebook/react/) and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+[React](https://reactjs.org) is a JavaScript library for building user interfaces. It's maintained by [Facebook](https://github.com/facebook/react/) and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
 # History
 
@@ -33,38 +33,44 @@ _Some History won't hurt!_
 
 before we talk about react we must talk a little about javascript and browsers.
 
-Backing to 90s til 2000 we just have basic HTML CSS & JS but back then it simply started with simple forms. First the CLIENT (when he open an URL) makes a request TO THE SERVER, the server answers by sending all files (\*.HTML,\*.CSS,\*.JS)and when the user makes an action (clicks a link...), the CLIENT send that request back to the server, and the SERVER must send back all the files again, and so on!.
+Backing to 90s til 2000 we just have basic HTML CSS & JS but back then it simply started with simple forms. First the CLIENT (when he open an URL) makes a request TO THE SERVER, the server answers by sending all files (`*.HTML`,`*.CSS`,`*.JS`) and when the user makes an action (clicks a link...), the CLIENT send that request back to the server, and the SERVER must send back all the files again, and so on!.
 & websites worked like that for years.
+
+<a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/client_server.png" ></a>
 
 Let's see where/when the story began
 
-- 1993 : Mosaic 💥, the first web browser to start bringing the Internet to the mainstream but no JS ❌ yet. Onlt the DOM (Document Object Model)but non-standardized yet.
-- 1994 : Netscape 🚀🚀🚀, was the dominant web browser in terms of usage share after the 1994, but by 2002 its use had almost disappeared.
-- May 1995 : Java appeared, and Netscape wanted to add **interations** to the webpages.
-- Mid 1995 : MOCHA was created by _Brendan Eich_ during his time at Netscape Communications. It was inspired by Java, Scheme and [Self](http://www.selflanguage.org). Mocha syntactically was just like Java {curly bracket language}, but already contains many features that we know and love in modern JS.
-- Sep 1995 : mocha's renamed to LiveScript and shipped in the first beta releases of [Netscape Navigator 2.0](https://tidbits.com/1995/11/13/netscape-2-0b2-available/).
-- Dec 1995 : JavaScript name appeared, no longer LiveScript. This name was because back then java was the most popular programming language.
-- 1996 : After Microsoft released Internet Explorer, MS reversed engineer JavaScript and they named if jscript, so now we have almost two identical languages:JavaScript and Jscript, and with the internet growing rapidly, people realized that there would be a need to standardize JavaScript.
-- 1997 : EcmaScript is born.
+- `1993` : Mosaic 💥, the first web browser to start bringing the Internet to the mainstream but no JS ❌ yet. Onlt the DOM (Document Object Model)but non-standardized yet.
+- `1994` : Netscape 🚀🚀🚀, was the dominant web browser in terms of usage share after the 1994, but by 2002 its use had almost disappeared.
+- `May 1995` : Java appeared, and Netscape wanted to add **interations** to the webpages.
+- `Mid 1995` : MOCHA was created by _Brendan Eich_ during his time at Netscape Communications. It was inspired by Java, Scheme and [Self](http://www.selflanguage.org). Mocha syntactically was just like Java {curly bracket language}, but already contains many features that we know and love in modern JS.
+- `Sep 1995` : mocha's renamed to LiveScript and shipped in the first beta releases of [Netscape Navigator 2.0](https://tidbits.com/1995/11/13/netscape-2-0b2-available/) <a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/netscape_website.png" ></a>
+
+- `Dec 1995` : JavaScript name appeared, no longer LiveScript. This name was because back then java was the most popular programming language.
+- `1996` : After Microsoft released Internet Explorer, MS reversed engineer JavaScript and they named it `jscript`, so now we have almost two identical languages:`JavaScript` and `Jscript`, and with the internet growing rapidly, people realized that there would be a need to standardize JavaScript.
+- `1997` : EcmaScript is born.
+
+  > `ECMAScript` (or ES) is a general-purpose programming language, standardized by Ecma International. It is a JavaScript standard meant to ensure the interoperability of Web pages across different Web browsers.
 
 ## Before REACT
 
 So as time goes many browsers appeared and JavaScript gains more interest, but the problem was that each one of these browsers works differently from each other, so as we wanted to use more and more javascript in our web pages we had to account for all these browsers, and accommadate javascript to work with them.
 
-- 2006 : jQuery came out and changed alot, it allowed to developers to easly interact with the DOM (Document Object Model) across all these browsers. jQuery made life so easier for developers, it made them happy because it had a unified easy API.
+- `2006` : jQuery came out and changed alot, it allowed to developers to easly interact with the DOM (Document Object Model) across all these browsers. jQuery made life so easier for developers, it made them happy because it had a unified easy API.
 
 So with the power that jQuery gave to developers, they bigan to build bigger and bigger apps like Facebook where you had so many features.
 Instead of just requesting more and more pages like a blog, users can now interact with these apps.
 
-- 2010 : BackboneJs came out. Because JavaScript files started getting bigger and bigger, so libraries like backboneJs allowed us to orginize these JS files.
+- `2010`: [BackboneJs](https://github.com/jashkenas/backbone) came out. Because JavaScript files started getting bigger and bigger, so libraries like backboneJs allowed us to orginize these JS files.
+  <a href="#"><img src="https://github.com/awixor/React-Track/blob/master/assits/backbone.png" ></a>
 
 ## The birth of SPA
 
-As we explained above, traditionally we just had HTML files for each page and everytime we move to a different page we request from the server the HTML file, CSS and JS (which usually contains jQuery) but whith more advancement like we had with jQuery, Backbone and Ajax too, we now had a different system.
+As we explained above, traditionally we just had HTML files for each page and everytime we move to a different page we request from the server the HTML file, CSS and JS (which usually contains jQuery) but with more advancement like we had with jQuery, Backbone and Ajax too, we now had a different system.
 Generally what happend is that we focus less on HTML and alot more on JS.
 So the principe behind SPAs is, you only load the application code once, and instead of leoding all files everytime returning a new document, our app now acts more like a desktop app where we stay on the same page the entire time, and JavaScripts simply changes or updates the DOM to display new things. This way of writing apps became really really popular.
 
-- oct 2010 : AngularJs was created by Google and beacame the standard way of building applications or SPAs. But inlike jQuery Angular allowed developers to build these large apps by forming these containers that will wrapp your project. Because AngularJs was created by Google, it had a lot of power.
+- `oct 2010` : [AngularJs](https://github.com/angular/angular.js) was created by Google and beacame the standard way of building applications or SPAs. But inlike jQuery Angular allowed developers to build these large apps by forming these containers that will wrapp your project. Because AngularJs was created by Google, it had a lot of power.
 
 Now we have things like Controllers, Views, Models (MVC), so the way of orginizing code and dividing it into different things depending of what it does, made it much easier to work with as teams gets larger and larger.
 **But another problem appeared!**
